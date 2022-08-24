@@ -71,7 +71,7 @@ export default function Footer() {
               <h3 className="font-Passion-One text-white text-2xl">Social</h3>
               <div className="flex gap-4" >
                {socialLink.map((icon, index) => (
-                  <a href={icon.link} target='_blank' rel="noreferrer" ><img src={icon.social} alt='social-icon'/></a>
+                  <a href={icon.link} target='_blank' rel="noreferrer" key={index}><img src={icon.social} key={index} alt='social-icon'/></a>
                 ))}
               </div>
            </ul>
@@ -84,7 +84,7 @@ export default function Footer() {
                  <h3 className="font-Passion-One text-white text-2xl">{title}</h3>
                 <ul className="flex flex-col gap-4">
                   {data.map((link, index2) => (
-                    <a href={link.link} className=" text-white"><li key={index2}>{link.title}</li></a>
+                    <a href={link.link} className=" text-white" key={index2}><li key={index2}>{link.title}</li></a>
                   ))}
                 </ul>
               </div>

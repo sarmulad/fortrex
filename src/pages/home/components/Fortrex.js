@@ -1,7 +1,7 @@
 import React from 'react'
-import  electricTower  from "../../../assets/images/electricTower.svg";
-import  rifleTower  from "../../../assets/images/rifleTower.svg";
-import  cannonTower from "../../../assets/images/cannonTower.svg";
+// import  electricTower  from "../../../assets/images/electricTower.svg";
+// import  rifleTower  from "../../../assets/images/rifleTower.svg";
+// import  cannonTower from "../../../assets/images/cannonTower.svg";
 import  cannons from "../../../assets/images/cannons.svg";
 
 
@@ -16,11 +16,11 @@ function Fortrex() {
             An RTS game with deck building and detailed progression system that lets you customize 
             Fortrex to your playstyle. Create a unique deck and destroy your enemies
             </p>
-            <div className='relative  '>
+            <div className='relative'>
                 {/* <img src={rifleTower}/>
                 <img src={electricTower}/>
                 <img src={cannonTower}/> */}
-                <img src={cannons} className='max-w-[1350px]'/>
+                <img src={cannons} className='max-w-[1350px] '/>
             </div>
 
        </div>

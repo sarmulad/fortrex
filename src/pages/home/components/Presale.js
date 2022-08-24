@@ -25,7 +25,7 @@ const Wrapper = styled.div`
     display:grid;
     grid-template-columns: repeat(4, 1fr);
     background: rgba(255, 255, 255, 0.02);
-    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 30px 80px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(80px);
     border-radius: 8px;
     padding:2rem 0rem;
@@ -73,22 +73,23 @@ const OurVision = () => {
         <div className="flex items-center justify-end presale-container">
           <div className="flex flex-col space-y-[10px] max-w-[700px] presale-item">
            <h3 className="metrics-header font-Passion-One text-center mid:text-start text-white text-[36px]">Presale Stages</h3>
-            <div className="project-container ">
+            <div className="project-container p-[1rem] ">
                 <div className="p-[2rem] border-r-[1px] border-white item-1">
                     <p className="text-white">Total Supply</p>
-                    <h3 className="text-white text-[20px]">10.000.000</h3>
+                    <h3 className="text-white text-[25px]">10.000.000</h3>
                 </div>
                 <div className="p-[2rem] border-r-[1px] border-white item-1 item-2">
-                    <p className="text-white">Total Supply</p>
-                    <h3 className="text-white text-[20px]">10.000.000</h3>
+                    <p className=" text-white">30% of supply</p>
+                    <h3 className="text-white text-[25px]">3.000.000</h3>
                 </div>
+                
                 <div className="p-[2rem] border-r-[1px] border-white">
-                    <p className="text-white">Total Supply</p>
-                    <h3 className="text-white text-[20px]">10.000.000</h3>
+                    <p className="text-white ">Ticker</p>
+                    <h3 className="text-white text-center text-[25px]">MAGG</h3>
                 </div>
                 <div className="p-[2rem]">
-                    <p className="text-white">Total Supply</p>
-                    <h3 className="text-white text-[20px]">10.000.000</h3>
+                    <p className="text-white">Start price</p>
+                    <h3 className="text-white text-center text-[25px]">-</h3>
                 </div>
             </div>
              <div>

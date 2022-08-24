@@ -1,26 +1,19 @@
 import React from 'react'
-import member1 from '../../../assets/images/member1.svg'
-import member2 from '../../../assets/images/member2.svg'
-// import member3 from '../../../assets/images/member3.svg'
-// import member4 from '../../../assets/images/member4.svg'
-// import member5 from '../../../assets/images/member5.svg'
-// import member6 from '../../../assets/images/member6.svg'
-// import member7 from '../../../assets/images/member7.svg'
-// import member8 from '../../../assets/images/member8.svg'
-// import member9 from '../../../assets/images/member9.svg'
-// import member10 from '../../../assets/images/member10.svg'
-// import member11 from '../../../assets/images/member11.svg'
-// import member12 from '../../../assets/images/member12.svg'
+import member1 from '../../../assets/images/member1.png'
+import member2 from '../../../assets/images/member2.png'
+import member3 from '../../../assets/images/member3.png'
+import member4 from '../../../assets/images/member4.png'
+import member5 from '../../../assets/images/member5.png'
+import member6 from '../../../assets/images/member6.png'
+import member7 from '../../../assets/images/member7.png'
+import member8 from '../../../assets/images/member8.png'
 
 
 
 
 const Members = [
-    member1,member2,member2,member2,member2,member2,member2,member2
+    member1,member2,member3,member4,member5,member6,member7,member8
   ];
-
-
-
 
 function Team() {
   return (

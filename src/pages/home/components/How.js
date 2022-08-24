@@ -26,8 +26,8 @@ const HowToEarnWrapper = styled.div`
 
 const EarnList = ({ header, text }) => {
   return (
-    <HowToEarnWrapper id="earn">
-      <div className="flex flex-col space-y-[10px] items-center justify-center">
+    <HowToEarnWrapper >
+      <div className="flex flex-col space-y-[20px] items-center justify-center">
         <div className="flex flex-col items-center">
           <h3 className="font-Passion-One  text-white text-2xl">{header}</h3>
           <p className="font-zona-semibold  text-white text-base">{text}</p>
@@ -39,10 +39,10 @@ const EarnList = ({ header, text }) => {
 
 const EarnLists = () => {
   return (
-    <div className="mt-[200px]  space-y-[18px] flex justify-center">
-      <div className="flex flex-col">
-        <h3 className="metrics-header font-Passion-One text-center text-white text-[36px]">How to earn</h3>
-        <div className="metrics flex space-x-[20px]">
+    <div className="mt-[-200px] mid:mt-[200px] space-y-[18px] flex justify-center">
+      <div className="flex flex-col ">
+        <h3 className="font-Passion-One text-center text-white text-[36px]">How to earn</h3>
+        <div className="flex space-x-[20px]">
           {howToEarnList.map((earnList, index) => (
             <EarnList {...earnList} key={index} />
           ))}

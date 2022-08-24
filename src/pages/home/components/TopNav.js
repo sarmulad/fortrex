@@ -14,18 +14,18 @@ const TopNav = () => {
       <ul className="p-0 items-center space-x-5 hidden mid:flex">
         <li>
           <HashLink
-            to="/#whatis"
+            to="/"
             className="font-vectro-bold text-white uppercase text-[18px]"
           >
-            what IS
+            Home
           </HashLink>
         </li>
         <li>
           <HashLink
             className="font-vectro-bold text-white uppercase text-[18px]"
-            to="/#why"
+            to="/#About"
           >
-            WHY
+            About
           </HashLink>
         </li>
         <li>
@@ -33,7 +33,7 @@ const TopNav = () => {
             className="font-vectro-bold text-white uppercase text-[18px]"
             to="/#features"
           >
-            FEATURES
+            WhitePaper
           </HashLink>
         </li>
         <li>
@@ -41,7 +41,7 @@ const TopNav = () => {
             className="font-vectro-bold text-white uppercase text-[18px]"
             to="/#nftandgame"
           >
-            NFT AND GAME
+            Services
           </HashLink>
         </li>
         <li>
@@ -55,9 +55,17 @@ const TopNav = () => {
         <li>
           <Link
             className="font-vectro-bold text-white uppercase text-[18px]"
-            to="/tokenomics"
+            to="/#what"
           >
-            Tokenomics
+            What is P$E?
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="font-vectro-bold text-white uppercase text-[18px]"
+            to="/#contact"
+          >
+            Contact
           </Link>
         </li>
       </ul>
@@ -82,46 +90,46 @@ const TopNav = () => {
           <li>
             <HashLink
               className="font-vectro-bold text-white uppercase text-[24px]"
-              to="/#whatis"
+              to="/"
               onClick={hideTopNav}
             >
-              what IS
+               Home
             </HashLink>
           </li>
           <li>
             <HashLink
               className="font-vectro-bold text-white uppercase text-[24px]"
-              to="/#why"
+              to="/about"
               onClick={hideTopNav}
             >
-              WHY
+              About
             </HashLink>
           </li>
           <li>
             <HashLink
               className="font-vectro-bold text-white uppercase text-[24px]"
-              to="/#features"
+              to="/WhitePaper"
               onClick={hideTopNav}
             >
-              FEATURES
+              WhitePaper
             </HashLink>
           </li>
           <li>
             <HashLink
               className="font-vectro-bold text-white uppercase text-[24px]"
-              to="/#nftandgame"
+              to="/#Services"
               onClick={hideTopNav}
             >
-              NFT AND GAME
+              Services
             </HashLink>
           </li>
           <li>
             <HashLink
               className="font-vectro-bold text-white uppercase text-[24px]"
-              to="/#roadmap"
+              to="/#what"
               onClick={hideTopNav}
             >
-              ROADMAP
+             What is P&E?
             </HashLink>
           </li>
           <li>
@@ -130,10 +138,10 @@ const TopNav = () => {
               to="/tokenomics"
               onClick={hideTopNav}
             >
-              Tokenomics
+             Contact
             </Link>
           </li>
-          <li>
+          {/* <li>
             <a
               className="bg-blue flex items-center justify-center h-[39px] rounded-[4px] font-vectro-bold px-5 py-[10px] text-white"
               href="#"
@@ -141,8 +149,8 @@ const TopNav = () => {
             >
               LOGIN
             </a>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <a
               className="bg-white flex items-center justify-center h-[39px] rounded-[4px] font-vectro-bold px-5 py-[10px] text-black"
               href="#"
@@ -150,7 +158,7 @@ const TopNav = () => {
             >
               Read whitepaper
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

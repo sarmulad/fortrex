@@ -25,10 +25,10 @@ const Home = () => {
   return (
     <div>
       <TopNav />
-      <div className="mt-[40px] md:mt-[76.72px]">     
+      <div >     
         <div className="pd hero">
-         <div className="h-[350px] md:h-[480px] mt-[-80px]">
-          <Fortrex className="w-full h-full" />
+         <div className="h-[160px] md:h-[380px] ">
+          <Fortrex className="w-full h-full " />
          </div>
          <div className="pd mt-5 flex flex-col items-center justify-center">
           <a
@@ -97,8 +97,8 @@ const Home = () => {
         
       <div className="flex space-x-2 mt-[5%] items-center justify-center magg-container p-[1rem]">
         <div className="flex-shrink-0">
-        <h1 className="text-white text-center sm:text-start leading-none">Play & Earn</h1>
-        <p className="leading-6 mt-[33px] font-zona-semibold text-white text-[18px] max-w-[533px]">
+        <h1 className="text-white text-center text-[30px] mid:text-[64px] sm:text-start leading-none">Play & Earn</h1>
+        <p className="leading-8 mt-[33px] font-zona-semibold text-white text-[16px] mid:text-[18px] max-w-[533px]">
         Fortrex: Color Duels is an RTS game where players can earn COL 
         token through their battles. While battling their way up to the conquest, 
         players can unlock different Fortrexes, customize their talents to your 
@@ -107,7 +107,7 @@ const Home = () => {
         </p>
       </div>
       <div className=" pointer-events-none max-h-[800px] max-w-[675px]">
-        <img src={Magg} />
+        <img src={Magg} className="max-h-[750px] mid:max-h-full"/>
       </div>
     </div>
      <How/>

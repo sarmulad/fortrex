@@ -49,11 +49,15 @@ h1 {
 .btn{
     background: linear-gradient(180deg, #226ADD 0%, #012157 100%);
 }
+
+
+
 @media screen and (min-width:1180px) {
     .nav{
      background-image: url('./assets/images/bar.svg');
      background-size: cover;
-    height: 100px;
+     height: 150px;
+     padding-bottom: 70px;
     }
 }
 
@@ -63,12 +67,14 @@ h1 {
     background-size: cover;
     background-position: center;
     padding-bottom: 100px;
+    padding-top: 150px;
+    
 }
 @media screen and (max-width:680px) {
     .hero{
      background-image: url('./assets/images/BG.svg');
-     padding-bottom: 300px;
-
+     padding-bottom: 240px;
+     background-position: bottom;
     }
 }
 .conquer{
@@ -77,14 +83,18 @@ h1 {
     background-position: bottom;
 }
 .magg-container{
-    /* background-image: url('./assets/images/earn.svg'); */
+    background-image: url('./assets/images/earn.svg');
     background-size: cover;
     background-position: center;
-    padding-bottom: 100px;
+    margin-top: -10px;
+    padding-top: 5rem;
 }
 @media(max-width:1190px) {
     .magg-container {
         flex-direction: column;
+    }
+    .hero{
+        margin-top: -140px;
     }
 }
 
@@ -131,7 +141,7 @@ input{
 
 footer .upper{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     justify-content: space-between;
     gap: 3rem;
     padding: 2rem;
