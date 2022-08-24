@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@font-face {
+    font-family: "VectroBold";
+    src: url(./assets/fonts/VECTRO-Bold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "ZonaBold";
+    src: url(./assets/fonts/ZonaPro-Bold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "ZonaSemiBold";
+    src: url(./assets/fonts/ZonaPro-SemiBold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "ZonaRegular";
+    src: url(./assets/fonts/ZonaPro-Regular.ttf) format("truetype");
+}
+
+.bold {
+    font-family: ZonaBold;
+}
+ 
+body,
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    min-height: 100vh;
+    background: #16122A;
+    box-sizing: border-box;
+    background: radial-gradient(93.28deg, #D80C0C 1.84%, #246DE2 100.32%);
+}
+
+h1 {
+    font-family: 'Passion One', cursive;
+    font-size: 64px;
+}
+
+.pd {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.btn{
+    background: linear-gradient(180deg, #226ADD 0%, #012157 100%);
+}
+@media screen and (min-width:1180px) {
+    .nav{
+     background-image: url('./assets/images/bar.svg');
+     background-size: cover;
+    height: 100px;
+    }
+}
+
+
+.hero{
+    background-image: url('./assets/images/hero.svg');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100px;
+}
+@media screen and (max-width:680px) {
+    .hero{
+     background-image: url('./assets/images/BG.svg');
+     padding-bottom: 300px;
+
+    }
+}
+.conquer{
+    background-image: url('./assets/images/make.svg');
+    background-size: cover;
+    background-position: bottom;
+}
+.magg-container{
+    background-image: url('./assets/images/earn.svg');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100px;
+}
+@media(max-width:1190px) {
+    .magg-container {
+        flex-direction: column;
+    }
+}
+
+.roadmap {
+    background: linear-gradient(180deg, #1D1736 0%, #251F46 100%);
+    max-width: 1350px;
+    margin-top: -10px;
+    padding: 3rem;
+}
+
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+footer{
+    background: #1C1736;
+}
+
+.lower{
+    background: #0F0C1D;
+    padding: 2rem 1rem;
+}
+
+input{
+    padding: 1rem;
+    outline: none;
+    border-radius: 8px;
+    width: 220px;
+}
+
+.submit-btn{
+    background: linear-gradient(180deg, #226ADD 0%, #012157 100%);
+    border-radius: 0px 8px 8px 0px;
+    width: 130px;
+    height: 56px;
+    color: white;
+}
+
+footer .upper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+@media screen and (max-width:1300px) {
+    .team-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width:1280px) {
+    .team-container{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:1024px) {
+    .web-roadmap{
+        display: none;
+    }
+}
+
+
+
